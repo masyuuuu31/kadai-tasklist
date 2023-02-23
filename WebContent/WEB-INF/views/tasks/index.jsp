@@ -11,7 +11,7 @@
             <ul>
                 <li><a
                     href="${pageContext.request.contextPath}/show?id=${task.id}"> <c:out
-                            value="${message.id}" />
+                            value="${task.id}" />
                 </a> : <c:out value="${task.content}" /></li>
             </ul>
         </c:forEach>
